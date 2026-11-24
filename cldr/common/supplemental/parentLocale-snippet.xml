@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
+<!--
+	Patch / snippet for Unicode CLDR: common/supplemental/supplementalData.xml
+	Purpose: Map en_BD to inherit from en_001 (World / Commonwealth English)
+	instead of root 'en' (US English), ensuring British English spelling,
+	metric units, and DD/MM/YYYY date conventions.
+-->
+<supplementalData>
+	<parentLocales>
+		<parentLocale parent="en_001" locales="... en_BD ..."/>
+	</parentLocales>
+</supplementalData>
