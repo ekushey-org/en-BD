@@ -21,7 +21,7 @@ While Bengali (`bn-BD`) is supported globally, Bangladesh currently lacks an off
 | **Currency Code** | `BDT` | ISO 4217 currency code for Bangladeshi Taka |
 | **Number & Currency Grouping** | `00,00,00,000.00` (`#,##,##0.00`) | South Asian numbering system (Lakh & Crore) |
 | **Measurement System** | Metric (`Metre`, `Kilometre`, `Celsius`) | Standard SI/Metric units |
-| **Time Format** | 12-hour clock (`AM` / `PM`) | Standard civil and commercial usage |
+| **Time Format** | 12-hour clock (`AM` / `PM`) | Default everyday and system format (24-hour format remains supported for transport and logs) |
 | **Date Format** | `DD/MM/YYYY` | Day-Month-Year ordering |
 | **Weekend** | Friday & Saturday | Official government and banking weekend in Bangladesh |
 | **Default Paper Size** | `A4` | ISO 216 standard used across offices and institutions |
